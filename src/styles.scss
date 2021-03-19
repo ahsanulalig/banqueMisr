@@ -1,0 +1,36 @@
+/* You can add global styles to this file, and also import other style files */
+// @import '~bootstrap/dist/css/bootstrap.min.css';
+
+html,
+body {
+  height: 100%;
+}
+
+body {
+  margin: 0;
+  font-family: Roboto, "Helvetica Neue", sans-serif;
+}
+
+.spinner-container {
+  position: fixed;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  top: 0;
+  z-index: 99999;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: rgb(185, 167, 202);
+  opacity: 0.7;
+}
+
+th.mat-header-cell {
+  font-size: 16px;
+  font-weight: bold;
+}
+
+.selected {
+  background-color: rgb(166, 187, 221);
+}
+
